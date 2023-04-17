@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: -moz-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(120,159,12,1)), color-stop(100%, rgba(255,225,0,1))); 
+    background: -webkit-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -o-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -ms-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: linear-gradient(to right, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#789f0c', endColorstr='#ffe100', 
+    GradientType=1 );
+}
+
+/*MENU*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+.menu li {
+    text-decoration: none;
+    list-style-type:none;
+    padding: 20px 15px;
+}
+.menu li a{
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(4, 4, 8);
+}
+
+.contenedor-inicio {
+    border-radius: 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url("/fotos/portada.jpg");
+
+
+}
+
+.contenedor-inicio h1{
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    align-items: end;
+}
+.contenedor-presentacion {
+    
+    width: 1000px;
+    
+}
+.contenedor-servicios {
+    background-color: rgb(236, 236, 188);
+    width: 350px;
+}
+
+.caja-presentacion{
+    background-color: rgb(154, 190, 54);
+    border-radius: 50px;
+    width: 100%;
+    height: 300px;
+    
+}
+.enlinea {
+
+border-radius: 50px;
+
+}
+.tamaniofoto{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.linea{
+    display: inline-block;
+}
